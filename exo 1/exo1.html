@@ -8,9 +8,12 @@
 	
 	function change_liste()
 		{
-
-			
-		
+			let liste = document.getElementsByTagName("ul")[0];
+			let elem = liste.getElementsByTagName("li")
+			liste.style.listStyle = "circle"
+			for(let i of elem){
+				i.innerHTML = "blabla"
+			}
 		}
 	
 </script>
